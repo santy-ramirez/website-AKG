@@ -87,6 +87,7 @@ line-height: 50px;
   margin: 0 auto;
     max-width: 370px;
 }
+
 .active {
  
   color:var(--color-text);
@@ -164,5 +165,11 @@ margin: 0 auto;
     margin: 0 2rem;
 
   }
-
+  .header__images{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .image{
+    width: 140px;
+  }
   }
