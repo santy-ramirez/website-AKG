@@ -60,14 +60,15 @@ body {
 /*************header******************/
 .header{
   background-color: var(--bgcolor);
-  text-align: center;
+  
 }
+
 .header__title{
   
   text-align: left;
   max-width: 335px;
 max-height: 145px;
-
+padding: 2.5rem 1rem;
 
 font-family: 'Bebas Neue';
 font-style: normal;
@@ -77,12 +78,15 @@ line-height: 50px;
 }
 
 .header__button{
+  margin: 0 0 3rem 1rem;
   color: var(--bgcolor);
   padding: 1rem 2rem;
   background-color: var(--primary-color);
 }
-
-
+.header__images{
+  margin: 0 auto;
+    max-width: 370px;
+}
 .active {
  
   color:var(--color-text);
@@ -91,16 +95,30 @@ line-height: 50px;
   display: none ;
 }
 .collection{
- 
+ margin: 1rem;
+}
+.imges2 {
+  width: 100%;
 }
 .collection__titulo{
   font-weight: 400;
 font-size: 36px;
 line-height: 42px;
+text-align: start;
+max-width: 690px;
+margin: 0 auto;
+}
+.colleccion__parrafo{
+  text-align: start;
+  margin: 0 auto;
+  max-width: 690px;
+}
+.collection__images{
+  text-align: center;
 }
   /***************** STYLES TABLE ********************/
 
-@media  (min-width:700px) {
+@media  (min-width:500px) {
   .topnav {
     
     max-width: 670px;
@@ -109,7 +127,12 @@ line-height: 42px;
     margin: 0 auto;
     text-align: center;
   }
-
+  .header__button{
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
   }
   /***************** STYLES DESTOKS ********************/
 @media  (min-width:1000px) {
