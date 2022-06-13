@@ -11,17 +11,20 @@
 }
 body {
   overflow-x: hidden;
-  margin: 0;
-  background-color: var(--bgcolor);
+  margin: 0 auto;
+
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 }
 
-
+.menu-container{
+  border-top: 3rem solid #FFF0E3;
+}
 .topnav {
-  background-color: white;
+  
   overflow: hidden;
+  margin: 0 auto;
   position: relative;
-  margin: 2rem auto;
+ background-color: ;
   padding: 1rem;
   max-width: 350px;
 }
@@ -84,8 +87,11 @@ line-height: 50px;
   background-color: var(--primary-color);
 }
 .header__images{
+  display: flex;
+  max-width: 1200px;
   margin: 0 auto;
-    max-width: 370px;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .active {
@@ -95,11 +101,15 @@ line-height: 50px;
 .active2{
   display: none ;
 }
-.collection{
- margin: 1rem;
+.container__seccion{
+  margin: 0 2rem;
 }
-.imges2 {
-  width: 100%;
+.
+.collection{
+
+}
+.image2 {
+ width: 100% ;
 }
 .collection__titulo{
   font-weight: 400;
@@ -116,6 +126,7 @@ margin: 0 auto;
 }
 .collection__images{
   text-align: center;
+  width: 100%;
 }
   /***************** STYLES TABLE ********************/
 
@@ -137,9 +148,13 @@ margin: 0 auto;
   }
   /***************** STYLES DESTOKS ********************/
 @media  (min-width:1000px) {
+  .container__seccion{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .topnav {
    
-    max-width: 900px;
+    max-width: 1400px;
   }
   .active{
     display: none !important;
@@ -165,11 +180,29 @@ margin: 0 auto;
     margin: 0 2rem;
 
   }
+  .header__title{
+  
+    max-width: 970px;
+    max-height: 167px;
+   
+    
+    /* Heading 01 */
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+  }
   .header__images{
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .image{
-    width: 140px;
+    width: 290px;
+  }
+  
+  .collection__images{
+    display: flex;
   }
   }
