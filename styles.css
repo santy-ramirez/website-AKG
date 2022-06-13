@@ -102,7 +102,7 @@ line-height: 50px;
   display: none ;
 }
 .container__seccion{
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 .
 .collection{
@@ -127,6 +127,17 @@ margin: 0 auto;
 .collection__images{
   text-align: center;
   width: 100%;
+}
+.image3{
+  width: 311px;
+  height: 420px;
+  margin-right: 1rem;
+  
+}
+.new__cards{
+overflow-x: scroll;
+justify-content: space-between;
+display: flex;
 }
   /***************** STYLES TABLE ********************/
 
