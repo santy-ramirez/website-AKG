@@ -139,6 +139,58 @@ overflow-x: scroll;
 justify-content: space-between;
 display: flex;
 }
+.ofert{
+  background-color: var(--color-text);
+  color: white;
+ 
+}
+.ofert__images{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  overflow-x: scroll;
+}
+.ofert__images img{
+  margin-right: .5rem;
+}
+.brand{
+  margin-left: 1.5rem;
+}
+.brand__cards{
+width: 100%;
+overflow-x: scroll;
+}
+.card-rigth{
+  display: flex;
+}
+.card-rigth img{
+  background-color: gray;
+  margin-right: .3rem;
+  margin-bottom: .3rem;
+
+max-width: 200px;
+padding: 2rem;
+}
+.card-left{
+display: flex;
+}
+.card-left img{
+  background-color: gray;
+  margin-right: .3rem;
+max-width: 200px;
+padding: 2rem;
+  }
+  .instagram__images{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .instagram__images img{
+margin-right: .5rem;
+  }
   /***************** STYLES TABLE ********************/
 
 @media  (min-width:500px) {
@@ -216,4 +268,11 @@ display: flex;
   .collection__images{
     display: flex;
   }
+  .brand__cards{
+   display: flex;
+   
+    }
+    .brand{
+      margin: 0 auto;
+    }
   }
