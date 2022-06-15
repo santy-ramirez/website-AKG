@@ -1,14 +1,15 @@
-:root{
-    --color-text:#1E1C1A;
-    --primary-color:#D99655;
-    --bgcolor:#FFF0E3;
-    --colorp:#504C48;
+:root {
+  --color-text: #1E1C1A;
+  --primary-color: #D99655;
+  --bgcolor: #FFF0E3;
+  --colorp: #504C48;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 body {
   overflow-x: hidden;
   margin: 0 auto;
@@ -16,15 +17,16 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 }
 
-.menu-container{
+.menu-container {
   border-top: 3rem solid #FFF0E3;
 }
+
 .topnav {
-  
+
   overflow: hidden;
   margin: 0 auto;
   position: relative;
- background-color: ;
+  background-color: ;
   padding: 1rem;
   max-width: 350px;
 }
@@ -46,13 +48,13 @@ body {
 
 
 .topnav a.icon {
-  
+
   display: block;
   position: absolute;
   right: 0;
- 
+
   top: 1rem;
-    right: 1rem
+  right: 1rem
 }
 
 
@@ -60,33 +62,35 @@ body {
   background-color: #ddd;
   color: black;
 }
+
 /*************header******************/
-.header{
+.header {
   background-color: var(--bgcolor);
-  
+
 }
 
-.header__title{
-  
+.header__title {
+
   text-align: left;
   max-width: 335px;
-max-height: 145px;
-padding: 2.5rem 1rem;
+  max-height: 145px;
+  padding: 2.5rem 1rem;
 
-font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 400;
-font-size: 42px;
-line-height: 50px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
 }
 
-.header__button{
+.header__button {
   margin: 0 0 3rem 1rem;
   color: var(--bgcolor);
   padding: 1rem 2rem;
   background-color: var(--primary-color);
 }
-.header__images{
+
+.header__images {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
@@ -95,213 +99,268 @@ line-height: 50px;
 }
 
 .active {
- 
-  color:var(--color-text);
+
+  color: var(--color-text);
 }
-.active2{
-  display: none ;
+
+.active2 {
+  display: none;
 }
-.container__seccion{
+
+.container__seccion {
   margin: 0 1.5rem;
   padding: 3rem 0 3rem;
 }
 
-.collection{
+.collection {}
 
-}
 .image2 {
- width: 100% ;
+  width: 100%;
 }
-.collection__titulo{
+
+.collection__titulo {
   font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-text-align: start;
-max-width: 690px;
-margin: 0 auto;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: start;
+  max-width: 690px;
+  margin: 0 auto;
 }
-.colleccion__parrafo{
+
+.colleccion__parrafo {
   text-align: start;
   margin: 0 auto;
   max-width: 690px;
 }
-.collection__images{
+
+.collection__images {
   text-align: center;
   width: 100%;
 }
-.collection__images div{
-position: relative;
-width: 100%;
+
+.collection__images div {
+  position: relative;
+  width: 100%;
 }
-.out__title{
-  
+
+.out__title {
+
   position: absolute;
-    bottom: 2rem;
-    /* right: 1px; */
-    left: 1rem;
-  
+  bottom: 2rem;
+  /* right: 1px; */
+  left: 1rem;
+
 }
-.image3{
+
+.image3 {
   width: 311px;
   height: 420px;
   margin-right: 1rem;
-  
+
 }
-.new__cards{
-overflow-x: scroll;
-justify-content: space-between;
-display: flex;
+
+.new__cards {
+  overflow-x: scroll;
+  justify-content: space-between;
+  display: flex;
 }
-.ofert{
+
+.ofert {
   background-color: var(--color-text);
   color: white;
- 
+
 }
-.ofert__images{
+
+.ofert__images {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   overflow-x: scroll;
 }
-.ofert__images img{
+
+.ofert__images img {
   margin-right: 10px;
 }
-.brand{
+
+.brand {
   margin-left: 1.5rem;
 }
-.brand__cards{
-width: 100%;
-overflow-x: scroll;
+
+.brand__cards {
+  width: 100%;
+  overflow-x: scroll;
 }
-.card-rigth{
+
+.card-rigth {
   display: flex;
 }
-.card-rigth img{
+
+.card-rigth img {
   background-color: gray;
   margin-right: .3rem;
   margin-bottom: .3rem;
 
-max-width: 200px;
-padding: 2rem;
+  max-width: 200px;
+  padding: 2rem;
 }
-.card-left{
-display: flex;
+
+.card-left {
+  display: flex;
 }
-.card-left img{
+
+.card-left img {
   background-color: gray;
   margin-right: .3rem;
-max-width: 200px;
-padding: 2rem;
-  }
-  .instagram__images{
-    display: flex;
-    justify-content: space-between;
+  max-width: 200px;
+  padding: 2rem;
+}
+.purpose-container{
+width: 100%;
+background-color: var(--bgcolor);
+}
+.purpose{
+
+}
+.purpose__images{
+  display: flex;
     align-items: flex-end;
-    width: 100%;
-    overflow-x: scroll;
-  }
-  .instagram__images img{
-margin-right: 10px;
-  }
-  footer{
-    background-color: var(--color-text);
-    color:white;
-    padding: 4rem 0 1rem;
-  }
-.footer__header{
+    justify-content: space-between;
+}
+.purpose__image{
+max-width: 210px;
+}
+.instagram__images {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.instagram__images img {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: var(--color-text);
+  color: white;
+  padding: 4rem 0 1rem;
+}
+
+.footer__header {
   text-align: center;
 }
-li{
+
+li {
   list-style: none;
 }
-  /***************** STYLES TABLE ********************/
 
-@media  (min-width:500px) {
+/***************** STYLES TABLE ********************/
+
+@media (min-width:500px) {
   .topnav {
-    
+
     max-width: 670px;
   }
-  .header__title{
+
+  .header__title {
     margin: 0 auto;
     text-align: center;
   }
-  .header__button{
+
+  .header__button {
     display: block;
     margin: 0 auto;
-    
+
   }
-  
-  }
-  /***************** STYLES DESTOKS ********************/
-@media  (min-width:1000px) {
-  .container__seccion{
+
+}
+
+/***************** STYLES DESTOKS ********************/
+@media (min-width:1000px) {
+  .container__seccion {
     max-width: 1200px;
     margin: 0 auto;
   }
+
   .topnav {
-   
+
     max-width: 1400px;
   }
-  .active{
+
+  .active {
     display: none !important;
   }
-  .icon{
+
+  .icon {
     display: none !important;
   }
-  .topnav{
+
+  .topnav {
     display: flex;
     justify-content: space-around;
   }
-  #myLinks{
+
+  #myLinks {
     display: flex !important;
-  
-    
+
+
   }
-  .link__rigth{
+
+  .link__rigth {
     display: flex;
     margin: 0 2rem;
   }
-  .link__left{
+
+  .link__left {
     display: flex;
     margin: 0 2rem;
 
   }
-  .header__title{
-  
+
+  .header__title {
+
     max-width: 970px;
     max-height: 167px;
-   
-    
+
+
     /* Heading 01 */
-    
+
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
     line-height: 82px;
   }
-  .header__images{
+
+  .header__images {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .image{
+
+  .image {
     width: 290px;
   }
-  .container__seccion{
+
+  .container__seccion {
     padding: 0 1rem;
   }
-  .collection__header{
+
+  .collection__header {
     max-width: 600px;
   }
-  .collection__images{
+
+  .collection__images {
     display: flex;
   }
-  .brand__cards{
-   display: flex;
-   
-    }
-    .brand{
-      margin: 0 auto;
-    }
+
+  .brand__cards {
+    display: flex;
+
   }
+
+  .brand {
+    margin: 0 auto;
+  }
+}
