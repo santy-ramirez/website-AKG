@@ -103,8 +103,9 @@ line-height: 50px;
 }
 .container__seccion{
   margin: 0 1.5rem;
+  padding: 3rem 0 3rem;
 }
-.
+
 .collection{
 
 }
@@ -127,6 +128,18 @@ margin: 0 auto;
 .collection__images{
   text-align: center;
   width: 100%;
+}
+.collection__images div{
+position: relative;
+width: 100%;
+}
+.out__title{
+  
+  position: absolute;
+    bottom: 2rem;
+    /* right: 1px; */
+    left: 1rem;
+  
 }
 .image3{
   width: 311px;
@@ -152,7 +165,7 @@ display: flex;
   overflow-x: scroll;
 }
 .ofert__images img{
-  margin-right: .5rem;
+  margin-right: 10px;
 }
 .brand{
   margin-left: 1.5rem;
@@ -189,8 +202,19 @@ padding: 2rem;
     overflow-x: scroll;
   }
   .instagram__images img{
-margin-right: .5rem;
+margin-right: 10px;
   }
+  footer{
+    background-color: var(--color-text);
+    color:white;
+    padding: 4rem 0 1rem;
+  }
+.footer__header{
+  text-align: center;
+}
+li{
+  list-style: none;
+}
   /***************** STYLES TABLE ********************/
 
 @media  (min-width:500px) {
@@ -264,7 +288,12 @@ margin-right: .5rem;
   .image{
     width: 290px;
   }
-  
+  .container__seccion{
+    padding: 0 1rem;
+  }
+  .collection__header{
+    max-width: 600px;
+  }
   .collection__images{
     display: flex;
   }
