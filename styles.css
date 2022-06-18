@@ -192,11 +192,7 @@ body {
   overflow-x: scroll;
 }
 
-.card-rigth {
-  display: flex;
-}
-
-.card-rigth img {
+.brand__cards img{
   background-color: gray;
   margin-right: .3rem;
   margin-bottom: .3rem;
@@ -205,16 +201,11 @@ body {
   padding: 2rem;
 }
 
-.card-left {
-  display: flex;
-}
 
-.card-left img {
-  background-color: gray;
-  margin-right: .3rem;
-  max-width: 200px;
-  padding: 2rem;
-}
+
+
+
+
 .purpose-container{
 width: 100%;
 background-color: var(--bgcolor);
@@ -353,14 +344,23 @@ li {
 
   .collection__images {
     display: flex;
+    justify-content: space-between;
   }
-
+  .collection__images div{
+max-width: 590px;
+  }
   .brand__cards {
+   
     display: flex;
+    justify-content: space-around;
 
   }
 
   .brand {
     margin: 0 auto;
+  }
+  .instagram__header{
+    display:flex;
+    justify-content: space-around;
   }
 }
