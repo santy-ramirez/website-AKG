@@ -152,19 +152,23 @@ body {
 
 }
 
-.image3 {
-  width: 311px;
-  height: 420px;
-  margin-right: 1rem;
 
-}
 
 .new__cards {
-  overflow-x: scroll;
-  justify-content: space-between;
+  
+ 
+ 
   display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
 }
-
+.card{
+  margin-right: 1rem;
+}
+.image3 {
+ 
+  
+  }
 .ofert {
   background-color: var(--color-text);
   color: white;
@@ -172,6 +176,8 @@ body {
 }
 
 .ofert__images {
+  margin: 0 auto;
+    max-width: 1600px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -183,25 +189,22 @@ body {
   margin-right: 10px;
 }
 
-.brand {
-  margin-left: 1.5rem;
+
+.brand{
+
+}
+.brand__cards{
+
+
+
 }
 
-.brand__cards {
-  width: 100%;
-  overflow-x: scroll;
+.bran__image{
+margin: .2rem;
+padding: .4rem;
+background-color: gainsboro
+;
 }
-
-.brand__cards img{
-  background-color: gray;
-  margin-right: .3rem;
-  margin-bottom: .3rem;
-
-  max-width: 200px;
-  padding: 2rem;
-}
-
-
 
 
 
@@ -263,6 +266,11 @@ li {
   .header__button {
     display: block;
     margin: 0 auto;
+
+  }
+  .brand__cards{
+display: flex;
+justify-content: space-between;
 
   }
 
@@ -349,16 +357,29 @@ li {
   .collection__images div{
 max-width: 590px;
   }
-  .brand__cards {
-   
+
+  .new{
+
+  }
+  .new__cards{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
   }
+  .bran__image{
+    margin: 1rem;
+    padding: 2rem;
+   
+    }
 
-  .brand {
-    margin: 0 auto;
-  }
+    .purpose__images{
+      flex-direction: row-reverse;
+    }
+    .purpose__image1{
+      width: 800px;
+    }
+    .purpose__image2{
+      width: 360px;
+    }
   .instagram__header{
     display:flex;
     justify-content: space-around;
