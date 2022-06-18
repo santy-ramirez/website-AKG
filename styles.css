@@ -380,6 +380,11 @@ max-width: 590px;
     .purpose__image2{
       width: 360px;
     }
+
+    .instagram__images {
+      margin: 0 auto;
+      max-width: 1600px;
+     }
   .instagram__header{
     display:flex;
     justify-content: space-around;
