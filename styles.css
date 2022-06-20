@@ -17,6 +17,9 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 }
 
+
+
+
 .menu-container {
   border-top: 3rem solid #FFF0E3;
 }
@@ -117,20 +120,38 @@ body {
 .image2 {
   width: 100%;
 }
-
-.collection__titulo {
+.titulo{
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: start;
   max-width: 690px;
-  margin: 0 auto;
+  
+
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+line-height: 42px;
+color: var(--color-text);
+}
+.parrafo{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: var(--colorp);
+  line-height: 24px;
+}
+.collection__titulo {
+ 
+  
+
 }
 
 .colleccion__parrafo {
-  text-align: start;
-  margin: 0 auto;
-  max-width: 690px;
+  
+  
 }
 
 .collection__images {
@@ -361,10 +382,18 @@ max-width: 590px;
   .new{
 
   }
+  .new__cards::-webkit-scrollbar {
+    display: none;
+}
   .new__cards{
     display: flex;
     justify-content: space-between;
+    
   }
+  .ofert__images::-webkit-scrollbar {
+    display: none;
+  }
+  
   .bran__image{
     margin: 1rem;
     padding: 2rem;
@@ -381,6 +410,9 @@ max-width: 590px;
       width: 360px;
     }
 
+    .instagram__images::-webkit-scrollbar{
+      display: none;
+     }
     .instagram__images {
       margin: 0 auto;
       max-width: 1600px;
@@ -389,4 +421,6 @@ max-width: 590px;
     display:flex;
     justify-content: space-around;
   }
+
+
 }
