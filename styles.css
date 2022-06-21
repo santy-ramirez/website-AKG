@@ -13,8 +13,7 @@
 body {
   overflow-x: hidden;
   margin: 0 auto;
-
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 }
 
 
@@ -120,39 +119,35 @@ body {
 .image2 {
   width: 100%;
 }
-.titulo{
+
+.titulo {
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: start;
   max-width: 690px;
-  
 
 
-font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 400;
-font-size: 2rem;
-line-height: 42px;
-color: var(--color-text);
+
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 42px;
+  color: var(--color-text);
 }
-.parrafo{
+
+.parrafo {
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
   color: var(--colorp);
   line-height: 24px;
 }
-.collection__titulo {
- 
-  
 
-}
+.collection__titulo {}
 
-.colleccion__parrafo {
-  
-  
-}
+.colleccion__parrafo {}
 
 .collection__images {
   text-align: center;
@@ -176,53 +171,58 @@ color: var(--color-text);
 
 
 .new__cards {
-  
- 
- margin-top: 1rem;
+
+
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   overflow-x: scroll;
 }
-.card{
+
+.card {
   margin-right: 1rem;
 }
-.card__header{
-  
-font-size: 1.5rem;
+
+.card__header {
+
+  font-size: 1.5rem;
 
 }
-.card__footer{
+
+.card__footer {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 
 }
-.card__footer span{
+
+.card__footer span {
   background-color: var(--bgcolor);
   padding: 1rem;
   border-radius: 50%;
-  
+
 
 }
-.image3 {
- 
-  
-  }
+
+.image3 {}
+
 .ofert {
   background-color: var(--color-text);
   color: white;
 
 }
-.ofert__title{
+
+.ofert__title {
   font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 42px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
 }
+
 .ofert__images {
   margin: 0 auto;
-    max-width: 1600px;
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -235,46 +235,43 @@ line-height: 42px;
 }
 
 
-.brand{
+.brand {}
 
-}
-.brand__cards{
+.brand__cards {}
 
-
-
-}
-
-.bran__image{
-margin: .2rem;
-padding: .4rem;
-background-color: gainsboro
-;
+.bran__image {
+  margin: .2rem;
+  padding: .4rem;
+  background-color: gainsboro;
 }
 
 
 
 
-.purpose-container{
-width: 100%;
-background-color: var(--bgcolor);
+.purpose-container {
+  width: 100%;
+  background-color: var(--bgcolor);
 }
-.purpose{
 
-}
-.purpose__images{
+.purpose {}
+
+.purpose__images {
   display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-.purpose__button{
- 
+
+.purpose__button {
+  margin: 1rem 0;
   color: var(--bgcolor);
   padding: 1rem 2rem;
   background-color: var(--primary-color);
 }
-.purpose__image{
-max-width: 210px;
+
+.purpose__image {
+  max-width: 210px;
 }
+
 .instagram__images {
   display: flex;
   justify-content: space-between;
@@ -300,12 +297,30 @@ footer {
 li {
   list-style: none;
 }
-@media (max-width:450px){
-  .card__footer span{
+
+.footer__container ul {
+  padding: 2rem 0;
+}
+
+.item2 {
+  max-width: 400px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* or 123% */
+
+  letter-spacing: -0.02em;
+}
+
+@media (max-width:450px) {
+  .card__footer span {
     margin-right: 1rem;
-  
+
   }
 }
+
 /***************** STYLES TABLE ********************/
 
 @media (min-width:500px) {
@@ -324,18 +339,28 @@ li {
     margin: 0 auto;
 
   }
-   
-  .ofert__header{
-   
+
+  .ofert__header {
+
     display: flex;
     align-items: center;
   }
-  .brand__cards{
-display: flex;
-justify-content: space-between;
+
+  .brand__cards {
+    display: flex;
+    justify-content: space-between;
 
   }
 
+  .footer__container ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item1 {
+    max-width: 100px;
+    padding-right: 2rem;
+  }
 }
 
 /***************** STYLES DESTOKS ********************/
@@ -416,54 +441,66 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
   }
-  .collection__images div{
-max-width: 590px;
+
+  .collection__images div {
+    max-width: 590px;
   }
 
-  .new{
+  .new {}
 
-  }
   .new__cards::-webkit-scrollbar {
     display: none;
-}
-  .new__cards{
+  }
+
+  .new__cards {
     display: flex;
     justify-content: space-between;
-    
+
   }
+
   .ofert__images::-webkit-scrollbar {
     display: none;
   }
- .ofert__header{
-  max-width: 1800px;
-  margin :0 auto;
- }
-  .bran__image{
+
+  .ofert__header {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .bran__image {
     margin: 1rem;
     padding: 2rem;
-   
-    }
 
-    .purpose__images{
-      flex-direction: row-reverse;
-    }
-    
-    .purpose__image1{
-      width: 800px;
-    }
-    .purpose__image2{
-      width: 360px;
-    }
+  }
 
-    .instagram__images::-webkit-scrollbar{
-      display: none;
-     }
-    .instagram__images {
-      margin: 0 auto;
-      max-width: 1600px;
-     }
-  .instagram__header{
-    display:flex;
+  .purpose__images {
+    flex-direction: row-reverse;
+  }
+
+  .purpose__image1 {
+    width: 800px;
+  }
+
+  .purpose__parrafo {
+    padding-top: 1rem;
+    max-width: 700px;
+  }
+
+  .purpose__image2 {
+    width: 360px;
+  }
+
+  .instagram__images::-webkit-scrollbar {
+    display: none;
+  }
+
+  .instagram__images {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+
+  .instagram__header {
+    display: flex;
     justify-content: space-around;
   }
 
