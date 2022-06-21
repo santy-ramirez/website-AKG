@@ -178,13 +178,31 @@ color: var(--color-text);
 .new__cards {
   
  
- 
+ margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   overflow-x: scroll;
 }
 .card{
   margin-right: 1rem;
+}
+.card__header{
+  
+font-size: 1.5rem;
+
+}
+.card__footer{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+.card__footer span{
+  background-color: var(--bgcolor);
+  padding: 1rem;
+  border-radius: 50%;
+  
+
 }
 .image3 {
  
@@ -195,7 +213,13 @@ color: var(--color-text);
   color: white;
 
 }
-
+.ofert__title{
+  font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+}
 .ofert__images {
   margin: 0 auto;
     max-width: 1600px;
@@ -242,6 +266,12 @@ background-color: var(--bgcolor);
     align-items: flex-end;
     justify-content: space-between;
 }
+.purpose__button{
+ 
+  color: var(--bgcolor);
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+}
 .purpose__image{
 max-width: 210px;
 }
@@ -270,7 +300,12 @@ footer {
 li {
   list-style: none;
 }
-
+@media (max-width:450px){
+  .card__footer span{
+    margin-right: 1rem;
+  
+  }
+}
 /***************** STYLES TABLE ********************/
 
 @media (min-width:500px) {
@@ -288,6 +323,12 @@ li {
     display: block;
     margin: 0 auto;
 
+  }
+   
+  .ofert__header{
+   
+    display: flex;
+    align-items: center;
   }
   .brand__cards{
 display: flex;
@@ -393,7 +434,10 @@ max-width: 590px;
   .ofert__images::-webkit-scrollbar {
     display: none;
   }
-  
+ .ofert__header{
+  max-width: 1800px;
+  margin :0 auto;
+ }
   .bran__image{
     margin: 1rem;
     padding: 2rem;
@@ -403,6 +447,7 @@ max-width: 590px;
     .purpose__images{
       flex-direction: row-reverse;
     }
+    
     .purpose__image1{
       width: 800px;
     }
